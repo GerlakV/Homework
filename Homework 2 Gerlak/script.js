@@ -20,8 +20,8 @@ do {
     action = prompt("Action (+ - * /):");
 } while ((action !== "+") && (action !== "-") && (action !== "*") && (action !== "/"));
 
-numberA = Number (numberA);
-numberB = Number (numberB);
+numberA = Number(numberA);
+numberB = Number(numberB);
 
 switch (action) {
     case '+' : result = numberA + numberB; break;
