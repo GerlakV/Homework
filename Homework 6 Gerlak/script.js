@@ -29,7 +29,7 @@ const calculateStudentAverageMark = (studentInfo) => calcAverageMark (studentInf
 
 const calculateGroupAverageMark = (groupInfo) => {
     const allMarks = groupInfo.map(({marks}) => marks).flat();
-    return calcAverageMark (allMarks);  
+    return calcAverageMark (allMarks); 
 };
 
 calculateStudentAverageMark(students[2]);
