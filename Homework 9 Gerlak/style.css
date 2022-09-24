@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    width: 300px;
+    background: linear-gradient(#8badf1, #f9f584);
+    text-align: center;
+}
+
+li {
+    background: yellow;
+    text-align: justify;
+}
+
+.invalid-input {
+    background-color: red;
+}
+
+.ready {
+    background: yellowgreen;
+}
