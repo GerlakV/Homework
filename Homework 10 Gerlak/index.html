@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Homework 10 Gerlak</title>
+        <script src="script.js" async></script>
+    </head>
+    <body>
+        <h2>Сontact</h2> 
+
+        <ul id="contactList"></ul>
+
+        <div> 
+            <input type="text" id="name" placeholder="Name" />
+            <input type="text" id="surname" placeholder="Surname" />
+            <input type="text" id="phone" placeholder="+380..." />
+            <button id="addСontactBtn">Add</button>
+        </div>
+
+        <script id="contactTemplate" type="text/template">
+            <li>
+                {{name}} {{surname}} {{phone}}
+                <button class="delete-btn">X</button>
+            </li>
+        </script>
+    </body>
+</html>

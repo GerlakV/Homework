@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    width: 700px;
+    background: linear-gradient(#8badf1, #f9f584);
+    margin: 30px;
+}
+
+.invalid-input {
+    background-color: red;
+}
+
+.delete-btn {
+    color: red;
+    font-weight: bold;
+}
