@@ -1,0 +1,27 @@
+body.body {
+    height:100vh;
+    /* width: 700px; */
+    background: linear-gradient(#8badf1, #f9f584);
+    color: aliceblue;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.ready {
+    background: yellowgreen;
+}
+
+input[type="text"].list, button.listBt, .edit-btn, .delete-btn {
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid;
+}
+
+input[type="text"].invalid-input {
+    background-color: red;
+}
+
