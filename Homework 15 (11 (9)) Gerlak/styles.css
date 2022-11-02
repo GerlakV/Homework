@@ -1,0 +1,45 @@
+body.body {
+    height:100vh;
+    width: 700px;
+    background: linear-gradient(#8badf1, #f9f584);
+    color: aliceblue;
+}
+
+.hidden {
+    display: none;
+}
+
+.todo-item.done {
+    background: rgba(169, 240, 26, 0.7);
+}
+
+input[type="text"].list, button.listBt, .edit-btn, .delete-btn {
+    background-color: transparent;
+    color:rgb(3, 3, 120);
+    border: 1px solid;
+}
+
+input[type="text"].invalid-input {
+    background-color: red;
+}
+
+button, button:hover {
+    color: rgb(3, 3, 120);
+}
+
+.todo-item {
+    padding: 10px;
+    border: 1px solid;
+    margin: 5px;
+    background-color: lightyellow;
+    color: black;
+    cursor: pointer;
+}
+
+.todo-item .delete-btn {
+    float: right;
+    margin-right: 10px;
+}
+
+
+
