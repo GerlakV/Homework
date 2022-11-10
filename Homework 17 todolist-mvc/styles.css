@@ -1,0 +1,21 @@
+.todo-item  {
+  padding: 10px;
+  border: 1px solid;
+  margin: 5px;
+  background-color: lightyellow;
+  color: black;
+  cursor: pointer;
+}
+
+.todo-item.done {
+  background-color: lightgreen;
+}
+
+.todo-item .delete-btn {
+  float: right;
+  margin-right: 10px;
+}
+
+input.invalid-input {
+  background-color: lightcoral;
+}
