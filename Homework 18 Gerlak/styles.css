@@ -1,0 +1,74 @@
+body {
+  min-height: 100vh;
+  max-height: 100%;
+  background: linear-gradient(#8badf1, #f9f584);
+  box-sizing: border-box;
+  color: rgb(14, 65, 109);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+form {
+  margin-bottom: 4.5rem;
+}
+
+textarea {
+  display: block;
+  border: none;
+  background-color: inherit;
+  margin: 15px 0px;
+  min-width: 50%;
+  max-width: 100%;
+}
+
+input {
+  display: inline-block;
+  border: none;
+  border-radius: inherit;
+  width: 70%;
+  padding: 12px 7px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-btn {
+  float: right;
+  width: 15%;
+  background-color: #4ec85a;
+  color: white;
+}
+
+.notes-board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.note-item {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 10px;
+  background: rgb(139, 173, 241, 0.6);
+}
+
+.delete-btn {
+  display: block;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #f16f65;
+}
+
