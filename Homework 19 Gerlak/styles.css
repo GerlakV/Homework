@@ -1,0 +1,20 @@
+body {
+  min-height: 100vh;
+  max-height: 100%;
+  background: linear-gradient(#8badf1, rgb(250, 246, 133));
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 52%;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.fancybox__viewport {
+  background-color: rgba(250, 246, 133, 0.4);
+}
+
