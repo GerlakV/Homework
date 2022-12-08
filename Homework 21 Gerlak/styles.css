@@ -1,0 +1,46 @@
+body {
+  min-height: 100vh;
+  max-height: 100%;
+  background: linear-gradient(#8badf1, rgb(250, 246, 133));
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 35%;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+.message-item {
+  position: relative;
+  border-radius: 10px;
+  padding: 15px 5px 15px 25px;
+  background-color: rgb(255, 255, 255, 0.7);
+  font-size: 18px;
+  margin: 4px 0;
+}
+
+input {
+  padding: 15px 20px;
+  margin: 15px 0;
+  border: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+button {
+  padding: 12px 7px 12px 7px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.save-btn {
+  width: 20%;
+  background-color: rgb(173, 255, 47, 0.7);
+  color: rgba(54, 82, 12);
+  margin: 8px 0;
+}

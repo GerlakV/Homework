@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="../common/js/utils.js" defer></script>
+    <script src="script.js" async></script>
+    <title>Chat - Homework 21 Gerlak</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div id="content"></div>
+      
+      <form id="chatForm">
+        <div id="inputBlock">
+          <input id="authorInput" type="text" placeholder="Name" />
+          <input id="msgInput" type="text" placeholder="Message" />
+          <button id="saveBtn" type="submit" class="save-btn">Send</button>
+        </div>
+      </form>
+    </div>
+
+    <script id="itemTemplate" type="text/template">
+      <div class="message-item">
+        <b>{{author}}:</b> -{{message}}
+      </div>
+    </script>
+  </body>
+</html>
