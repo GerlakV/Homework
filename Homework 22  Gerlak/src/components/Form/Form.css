@@ -1,0 +1,21 @@
+form {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-gap: 20px;
+}
+
+.save-btn {
+  width: 90%;
+  background-color: #10e365;
+  color: white;
+  margin: 8px 0;
+}
+
+.save-btn:hover {
+  background-color: #039e41;
+}
+
+.save-btn:disabled {
+  background-color: #a8edab;
+  cursor: not-allowed;
+}
