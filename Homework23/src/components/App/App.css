@@ -1,0 +1,17 @@
+div.paleBlueRows {
+  border: 1px solid #ffffff;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.divTable.paleBlueRows .divTableRow:nth-child(even) {
+  background: #d0e4f5;
+}
+
+.divTable {
+  display: table;
+}
+
+.divTableRow {
+  display: table-row;
+}

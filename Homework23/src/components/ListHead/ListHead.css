@@ -1,0 +1,33 @@
+.divTable .divTableCell,
+.divTable .divTableHead {
+  border: 1px solid #ffffff;
+  padding: 3px 2px;
+}
+
+.divTable .divTableHeading {
+  background: #8badf1;
+  border-bottom: 5px solid #ffffff;
+}
+
+.divTable .divTableHeading .divTableHead {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.divTable .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.divTableHeading {
+  display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+  display: table-cell;
+}
+
+.divTableHeading {
+  display: table-header-group;
+}

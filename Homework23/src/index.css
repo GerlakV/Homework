@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(#8badf1, rgb(250, 246, 133));
+  min-height: 100vh;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: rgb(255, 255, 255, 0.5);
+  position: relative;
+  display: table;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 30px;
+}

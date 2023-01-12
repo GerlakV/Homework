@@ -1,0 +1,7 @@
+.divTable.paleBlueRows .divTableBody .divTableCell {
+  font-size: 13px;
+}
+
+.divTableBody {
+  display: table-row-group;
+}

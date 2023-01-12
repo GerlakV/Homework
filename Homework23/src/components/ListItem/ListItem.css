@@ -1,0 +1,9 @@
+.remove-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: blue;
+  color: white;
+}
